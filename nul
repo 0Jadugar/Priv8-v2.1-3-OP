@@ -2,14 +2,14 @@ Collecting discord.py==1.4.0
   Using cached discord.py-1.4.0-py3-none-any.whl (692 kB)
 Collecting aiohttp<3.7.0,>=3.6.0
   Using cached aiohttp-3.6.3-cp38-cp38-linux_x86_64.whl
-Collecting yarl<1.6.0,>=1.0
-  Using cached yarl-1.5.1-cp38-cp38-manylinux1_x86_64.whl (262 kB)
-Collecting chardet<4.0,>=2.0
-  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
-Requirement already satisfied: attrs>=17.3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (21.2.0)
-Requirement already satisfied: async-timeout<4.0,>=3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (3.0.1)
 Collecting multidict<5.0,>=4.5
   Using cached multidict-4.7.6-cp38-cp38-manylinux1_x86_64.whl (162 kB)
+Collecting chardet<4.0,>=2.0
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied: async-timeout<4.0,>=3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (3.0.1)
+Collecting yarl<1.6.0,>=1.0
+  Using cached yarl-1.5.1-cp38-cp38-manylinux1_x86_64.whl (262 kB)
+Requirement already satisfied: attrs>=17.3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (21.2.0)
 Requirement already satisfied: idna>=2.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from yarl<1.6.0,>=1.0->aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (3.2)
 Installing collected packages: multidict, yarl, chardet, aiohttp, discord.py
   Attempting uninstall: multidict
