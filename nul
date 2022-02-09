@@ -1,0 +1,35 @@
+Collecting discord.py==1.4.0
+  Using cached discord.py-1.4.0-py3-none-any.whl (692 kB)
+Collecting aiohttp<3.7.0,>=3.6.0
+  Using cached aiohttp-3.6.3-cp38-cp38-linux_x86_64.whl
+Collecting yarl<1.6.0,>=1.0
+  Using cached yarl-1.5.1-cp38-cp38-manylinux1_x86_64.whl (262 kB)
+Collecting chardet<4.0,>=2.0
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied: attrs>=17.3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (21.2.0)
+Requirement already satisfied: async-timeout<4.0,>=3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (3.0.1)
+Collecting multidict<5.0,>=4.5
+  Using cached multidict-4.7.6-cp38-cp38-manylinux1_x86_64.whl (162 kB)
+Requirement already satisfied: idna>=2.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from yarl<1.6.0,>=1.0->aiohttp<3.7.0,>=3.6.0->discord.py==1.4.0) (3.2)
+Installing collected packages: multidict, yarl, chardet, aiohttp, discord.py
+  Attempting uninstall: multidict
+    Found existing installation: multidict 5.1.0
+    Uninstalling multidict-5.1.0:
+      Successfully uninstalled multidict-5.1.0
+  Attempting uninstall: yarl
+    Found existing installation: yarl 1.6.3
+    Uninstalling yarl-1.6.3:
+      Successfully uninstalled yarl-1.6.3
+  Attempting uninstall: chardet
+    Found existing installation: chardet 4.0.0
+    Uninstalling chardet-4.0.0:
+      Successfully uninstalled chardet-4.0.0
+  Attempting uninstall: aiohttp
+    Found existing installation: aiohttp 3.7.4.post0
+    Uninstalling aiohttp-3.7.4.post0:
+      Successfully uninstalled aiohttp-3.7.4.post0
+  Attempting uninstall: discord.py
+    Found existing installation: discord.py 1.7.3
+    Uninstalling discord.py-1.7.3:
+      Successfully uninstalled discord.py-1.7.3
+Successfully installed aiohttp-3.6.3 chardet-3.0.4 discord.py-1.4.0 multidict-4.7.6 yarl-1.5.1

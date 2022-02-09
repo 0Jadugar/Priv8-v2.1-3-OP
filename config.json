@@ -1,0 +1,17 @@
+{
+    "General": {
+        "Prefix": "x",
+        "Token": "ODk2MzA1NzkzMzk2MjczMTgy.YWFL0Q.3FUhvze-8B45Lj9Y1M_nznnVOsg",
+        "Guild To Nuke": "875245926359388180"
+    },
+    "Nuke":{
+        "Channel Names": ["Eagle on top baby"],
+        "Role Names": ["Eagle tera baap bsdk"]
+    },
+    "Webhook Spam":{
+        "Spam": true,
+        "Webhook Names": ["Eagle Op", "Eagle On Fire"],
+        "Message Contents": ["EAGLE RUNS CORD https://discord.gg/spyop @everyone", "@everyone EAGLE ON TOP https://discord.gg/spyop"],
+        "Spam Amount": 1000000
+    }
+}
